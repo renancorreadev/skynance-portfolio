@@ -59,7 +59,7 @@ export function Form() {
       <h2>
         {language === "EN" ? messageEN : messagePT}
       </h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} method="POST">
         <input
           placeholder="Email"
           id="email"
@@ -88,7 +88,7 @@ export function Form() {
           errors={state.errors}
         />
         <ReCAPTCHA
-          sitekey="6Lfj9NYfAAAAAP8wPLtzrsSZeACIcGgwuEIRvbSg"
+          sitekey="6LdZ76MjAAAAAHc4aVGDzJmLEkpL0rz07O1W5B88"
           onChange={(e) => {
             setIsHuman(true)
           }}
