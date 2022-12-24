@@ -1,0 +1,28 @@
+
+    /** Translates for Header menu */
+    html:lang(pt) #header_about,
+    html:lang(pt) #header_portfolio,
+    html:lang(pt) #header_contact{
+      font-size: 0;
+      padding: 0.6rem;
+      font-family: 'Red Hat Display',sans-serif;
+      font-weight: 500;
+      text-transform: uppercase;
+      -webkit-transition: filter 0.25s;
+      transition: filter 0.25s;
+    }
+
+    html:lang(pt) #header_about:before {
+      font-size: 1.6rem;
+      content: "Sobre";
+    }
+
+    html:lang(pt) #header_portfolio:before {
+      font-size: 1.6rem;
+      content: "portfólio";
+    }
+
+    html:lang(pt) #header_contact:before {
+      font-size: 1.6rem;
+      content: "Contato";
+    }
