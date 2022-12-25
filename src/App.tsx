@@ -6,8 +6,6 @@ import { Main } from './components/Main/Main'
 import { GlobalStyle } from './styles/global'
 import 'react-toastify/dist/ReactToastify.css'
 
-
-
 function App() {
   return (
     <>

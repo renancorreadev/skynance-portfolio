@@ -59,10 +59,9 @@ export function About() {
           <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
             <p className="paragraph">
             My name is Renan césar, I am a computer engineer graduated in 2020 with a great passion for technology I have dedicated the last 6 years to programming. I am passionate about delivering innovative solutions that contribute to people's lives and at the same time challenge me. I had several opportunities in the blockchain business and delivered great innovative projects that make a difference in the market, I worked approximately 2 years developing E-Commerce with the VTEX platform for several famous companies in Europe like 
-              <a href="https://www.miriade.com/en/" target="_blank" rel="noreferrer">Miriade</a>,
-              <a href="https://www.yamamay.com/it_en/" target="_blank" rel="noreferrer">Yamamay</a>,
-              <a href="https://www.carpisa.it/it_it/" target="_blank" rel="noreferrer">Carpisa</a>,
-              <a href="https://it.canali.com/" target="_blank" rel="noreferrer">Canali</a>,
+            <a href="https://www.yamamay.com/it_en/" target="_blank" rel="noreferrer">Yamamay</a>,
+              <a href="https://www.carpisa.it/it_it/" target="_blank" rel="noreferrer">Carpisa</a> and
+              <a href="https://it.canali.com/" target="_blank" rel="noreferrer">Canali</a>.
             </p>
           </ScrollAnimation>
           <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
@@ -88,7 +87,7 @@ export function About() {
           <div className="hard-skills">
             {/**Web Development */}
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <span className="block-title">Desenvolvimento FullStack</span>
+              <span className="block-title">FullStack Developer</span>
             </ScrollAnimation>
      
             <div className="web-dev-block">
@@ -180,7 +179,7 @@ export function About() {
             </div>
             {/**BlockChain */}
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-            <span className="block-title">Desenvolvimento Blockchain e Web3 </span>
+            <span className="block-title">Blockchain Developer </span>
             </ScrollAnimation>
             <div className="blockchain-block">
               <div className="hability">
@@ -236,7 +235,7 @@ export function About() {
             </div>
             {/**Tests */}
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <span className="block-title">Desenvolvimento de testes</span>
+              <span className="block-title">Testing Developer</span>
              </ScrollAnimation>
        
             <div className="test-blocks">
@@ -257,7 +256,7 @@ export function About() {
             </div>
             {/**Vtex Development */}
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <span className="block-title">Desenvolvimento Vtex</span>
+              <span className="block-title">Vtex Developer</span>
             </ScrollAnimation>
 
             <div className="vtex-blocks">
@@ -339,11 +338,12 @@ export function About() {
             {content.pt.aboutMe2}
             <a href="https://www.miriade.com/en/" target="_blank" rel="noreferrer">Miriade</a>,
               <a href="https://www.yamamay.com/it_en/" target="_blank" rel="noreferrer">Yamamay</a>,
-              <a href="https://www.carpisa.it/it_it/" target="_blank" rel="noreferrer">Carpisa</a>,
-              <a href="https://it.canali.com/" target="_blank" rel="noreferrer">Canali</a>,
+              <a href="https://www.carpisa.it/it_it/" target="_blank" rel="noreferrer">Carpisa</a> e
+              <a href="https://it.canali.com/" target="_blank" rel="noreferrer">Canali</a>.
             </p>
           </ScrollAnimation>
           <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
+            <br/> 
             <p>{content.pt.myskill1}</p>
             <br /> 
             <p>{content.pt.myskill2}</p>

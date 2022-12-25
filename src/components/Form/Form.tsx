@@ -8,7 +8,7 @@ import { useContext } from "react"
 import { LanguageContext } from "../../context/language"
 
 export function Form() {
-  const [state, handleSubmit] = useForm('xknkpqry')
+  const [state, handleSubmit] = useForm('mrgvzrvb')
   const { language } = useContext(LanguageContext);
   const [validEmail, setValidEmail] = useState(false)
   const [isHuman, setIsHuman] = useState(false)
@@ -88,7 +88,7 @@ export function Form() {
           errors={state.errors}
         />
         <ReCAPTCHA
-          sitekey="6Lfj9NYfAAAAAP8wPLtzrsSZeACIcGgwuEIRvbSg"
+          sitekey="6LdZ76MjAAAAAHc4aVGDzJmLEkpL0rz07O1W5B88"
           onChange={(e) => {
             setIsHuman(true)
           }}
