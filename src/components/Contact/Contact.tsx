@@ -19,7 +19,7 @@ export function Contact(){
         <div className="contacts">
           <div>
             <img src={emailIcon} alt="Email" />
-            <a href="mailto:producer@skynance.net">producer@skynance.net</a>
+            <a href="mailto:skynancemusic@gmail.com">skynancemusic@gmail.com</a>
           </div>
           <div>
             <img src={phoneIcon} alt="Phone No" />
@@ -39,7 +39,7 @@ export function Contact(){
         <div className="contacts">
           <div>
             <img src={emailIcon} alt="Email" />
-            <a href="mailto:producer@skynance.net">producer@skynance.net</a>
+            <a href="mailto:skynancemusic@gmail.com">developer@skynance.net</a>
           </div>
           <div>
             <img src={phoneIcon} alt="Phone No" />

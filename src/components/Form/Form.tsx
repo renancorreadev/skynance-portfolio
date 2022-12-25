@@ -8,7 +8,7 @@ import { useContext } from "react"
 import { LanguageContext } from "../../context/language"
 
 export function Form() {
-  const [state, handleSubmit] = useForm('xknkpqry')
+  const [state, handleSubmit] = useForm('mrgvzrvb')
   const { language } = useContext(LanguageContext);
   const [validEmail, setValidEmail] = useState(false)
   const [isHuman, setIsHuman] = useState(false)
@@ -59,7 +59,7 @@ export function Form() {
       <h2>
         {language === "EN" ? messageEN : messagePT}
       </h2>
-      <form onSubmit={handleSubmit} method="POST">
+      <form onSubmit={handleSubmit}>
         <input
           placeholder="Email"
           id="email"
